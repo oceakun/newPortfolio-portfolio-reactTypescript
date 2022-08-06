@@ -8,5 +8,5 @@ Students can
     * online courses
     * great articles.
 * book classrooms to 
-    * hold group discussions (a secure room where only those with granted permissions can enter)
+    * hold group discussions (a secure room where only those with permissions can enter)
     * schedule casual meetups with their peers (via calender)
