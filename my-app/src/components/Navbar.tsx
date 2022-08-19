@@ -21,19 +21,19 @@ function Navbar() {
             <hr></hr>
             {/* </NavbarGroupI> */}
                 <NavbarLinks>
-                    <IconButton onClick={()=>console.log("Home button clicked")} style={{color:"skyBlue"}}>
+                    <IconButton onClick={()=>console.log("Home/Blogs button clicked")} style={{color:"#d19280"}}>
                     <HomeRoundedIcon />
                     </IconButton>
-                    <IconButton onClick={()=>console.log("Notifications button clicked")} style={{color:"skyBlue"}}>
+                    <IconButton onClick={()=>console.log("Chat button clicked")} style={{color:"#d19280"}}>
                     <SendRoundedIcon />
                     </IconButton>
-                    <IconButton onClick={()=>console.log("Compass button clicked")} style={{color:"skyBlue"}}>
+                    <IconButton onClick={()=>console.log("Compass button clicked")} style={{color:"#d19280"}}>
                     <ExploreRoundedIcon />
                     </IconButton>
-                    <IconButton onClick={()=>console.log("Likes button clicked")} style={{color:"skyBlue"}}>
+                    <IconButton onClick={()=>console.log("Likes button clicked")} style={{color:"#d19280"}}>
                     <StarBorderPurple500RoundedIcon />
                     </IconButton>
-                    <IconButton onClick={()=>console.log("Profile button clicked")} style={{color:"skyBlue"}}>
+                    <IconButton onClick={()=>console.log("Profile button clicked")} style={{color:"#d19280"}}>
                     <FaceRoundedIcon />
                     </IconButton>
             </NavbarLinks>
@@ -58,16 +58,16 @@ const NavbarGroupII = styled.div`
 
 const NavbarLogo = styled.div`
 >p{
-    color:white;
+    color:#d19280;
     font-family:OCR A Std, monospace;
 }
 `;
 
 const NavbarSearchbar = styled.div`
 >input{
-    border:solid 1px #002171;
+    border:solid 1px #0e3796;
     border-radius:2px;
-    background-color:#0e3796;
+    background-color:transparent;
     height : 20px;
     width:200px;
 }
@@ -80,7 +80,7 @@ const NavbarSearchbar = styled.div`
   }
   
 >input:focus {
-    // border:solid 1px skyBlue;
+    // border:solid 1px #d19280;
     // border-radius:2px; 
     outline:none;
     color:#d0dbf2;
@@ -100,9 +100,9 @@ display:flex;
 flex-flow:row;
 justify-content:center;
 align-items:center;
-background-color:#002171;
+background-color:white;
 gap : 10vw;
-box-shadow: 0 4px 20px #002171;
+box-shadow: 0 1px 7px #002171;
 >hr{
     // color:transparent;
     display:none;
@@ -114,7 +114,7 @@ box-shadow: 0 4px 20px #002171;
     align-items:center;
     gap:1vh;
     >hr{
-        color:skyBlue;
+        color:#d19280;
         width:50vw;
     }
   }
