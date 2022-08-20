@@ -5,11 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: rgb(249, 243, 236); */
-  /* background-color: skyBlue;
-  background-color:#0e3796;
-  background-color:#081b4c; */
-  background-color:#f2edf5;
+  /* background-color:#d19280; */
+  background-color:rgb(161, 145, 237);
   font-family:Andale Mono, monospace;
 
 }
