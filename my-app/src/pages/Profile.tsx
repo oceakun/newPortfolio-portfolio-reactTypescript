@@ -1,6 +1,9 @@
 import React from 'react';
 import FaceRoundedIcon from '@mui/icons-material/FaceRounded';
 import styled from "styled-components";
+import me from "./assets/me.jpeg";
+import ReactFullpage from '@fullpage/react-fullpage';
+
 export interface IProfilePageProps {}
 
 const Profile: React.FunctionComponent<IProfilePageProps> = (props) => {
@@ -39,12 +42,17 @@ const Profile: React.FunctionComponent<IProfilePageProps> = (props) => {
         </div>
       </div>
         </div>
+        <div className="photoSection">
         <a
-          className="button border-gradient button-border-gradient"
+          className="button "
           href="mailto:sagardeep1811@hotmail.com?subject=Reaching%20out%20to%20you%20via%20your%20portfolio."
         >
           Get In Touch
         </a>
+          <img src="https://images.pexels.com/photos/1036627/pexels-photo-1036627.jpeg?auto=compress&cs=tinysrgb&w=300"  />
+          
+        </div>
+        
     </div>
     </ProfileContainer>
     );

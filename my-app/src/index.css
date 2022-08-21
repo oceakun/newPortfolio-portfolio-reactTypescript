@@ -23,6 +23,15 @@ mark{
   background-color:white;
 }
 
+.photoSection{
+  display:flex;
+  flex-flow:column-reverse nowrap;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
+  gap:10px;
+}
+
 .intro{
   display:flex;
   flex-flow:row-reverse nowrap;
@@ -45,6 +54,7 @@ mark{
     justify-content: space-between;
     text-align: center;
     margin:0 20px 0 20px;
+    padding-bottom:20px;
   }
   }
 
@@ -58,7 +68,7 @@ mark{
 }
 
 .header__content {
-  padding:0 40px 0 40px;
+  /* padding:0 40px 0 40px; */
 }
 
 .header_work p{
@@ -130,23 +140,21 @@ mark{
 
 .button {
   display: inline-block;
-  padding: 15px 50px;
+  padding: 5px 5px;
   color: rgb(151, 112, 243);
-  /* border: black; */
+  border: transparent solid 2px;
   background-color: white;
-  /* border-radius: 5px; */
-  width:200px;
-  /* border: white 2px solid; */
+  border-radius: 3px;
+  width:150px;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
   transition: all 250ms ease;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .button:hover {
   color: #ffffff;
-  background-image:linear-gradient(rgb(243, 112, 182) , rgb(151, 112, 243));
+  background-color:rgb(151, 112, 243);
+  border:2px white solid;
 }
