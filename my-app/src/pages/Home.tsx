@@ -12,7 +12,7 @@ const Home: React.FunctionComponent<IHomePageProps> = (props) => {
       <NavbarSearchbar>
               <input type="text" placeholder="..."/>
       </NavbarSearchbar>
-      Find my blogs here
+      Find my blogs here / A few articles I am interested in
       </HomeContainer>
     );
 };

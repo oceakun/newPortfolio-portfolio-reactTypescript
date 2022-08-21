@@ -14,29 +14,23 @@ function Navbar() {
     const navigate = useNavigate();
     return (
         <NavbarContainer>
-            {/* <NavbarGroupI> */}
-                <NavbarLogo>
-                    <p>Sagar_Deep</p>
+            <NavbarLogo>
+                <p>Sagar_Deep</p>
             </NavbarLogo>
-            {/* </NavbarGroupI> */}
-                <NavbarLinks>
+            <NavbarLinks>
                 <IconButton onClick={() =>navigate("/home")} style={{color:"rgb(245, 113, 135)"}}>
-                    <HomeRoundedIcon />
-                    </IconButton>
-                    <IconButton onClick={()=>navigate("/chat")} style={{color:"rgb(245, 113, 135)"}}>
-                    <SendRoundedIcon />
-                    </IconButton>
-                    {/* <IconButton onClick={()=>console.log("Compass button clicked")} style={{color:"rgb(245, 113, 135)"}}>
-                    <ExploreRoundedIcon />
-                    </IconButton> */}
-                    <IconButton onClick={()=>navigate("/likes")} style={{color:"rgb(245, 113, 135)"}}>
-                    <StarBorderPurple500RoundedIcon />
-                    </IconButton>
-                    <IconButton onClick={()=>navigate("/profile")} style={{color:"rgb(245, 113, 135)"}}>
-                    <EmojiEmotionsRoundedIcon />
-                    </IconButton>
+                <HomeRoundedIcon />
+                </IconButton>
+                <IconButton onClick={()=>navigate("/chat")} style={{color:"rgb(245, 113, 135)"}}>
+                <SendRoundedIcon />
+                </IconButton>
+                <IconButton onClick={()=>navigate("/likes")} style={{color:"rgb(245, 113, 135)"}}>
+                <StarBorderPurple500RoundedIcon />
+                </IconButton>
+                <IconButton onClick={()=>navigate("/profile")} style={{color:"rgb(245, 113, 135)"}}>
+                <EmojiEmotionsRoundedIcon />
+                </IconButton>
             </NavbarLinks>
-            <hr></hr>
         </NavbarContainer>
   )
 }

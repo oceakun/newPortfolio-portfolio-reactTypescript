@@ -10,7 +10,7 @@ const Header: React.FunctionComponent<IHeaderPageProps> = (props) => {
       <Navbar />
       <Outlet />
       </div>
-    );
-};
+    )
+}
 
 export default Header;

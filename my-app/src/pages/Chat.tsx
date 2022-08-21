@@ -19,7 +19,7 @@ const Chat: React.FunctionComponent<IChatPageProps> = (props) => {
   },[]);
   return (
     <ChatContainer>
-      Contact me
+      Contact me / Use the chatbot to know things about me
     </ChatContainer>
     );
 };
